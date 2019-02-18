@@ -1,0 +1,100 @@
+<!doctype html>
+
+<html lang="fi">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>Launchcontrol</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+    <link rel="stylesheet" media="screen and (min-width: 700px)" href="css/style-desktop.css">
+    <link rel="stylesheet" media="screen and (max-width: 700px)" href="css/style-tablet.css">
+    <link rel="stylesheet" media="screen and (max-width: 480px)" href="css/style-mobile.css">
+
+</head>
+
+<body>
+    <main>
+        <header>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="home.html">Home</a>
+                <a href="about.html">About us</a>
+                <a href="team.html">Team</a>
+                <a href="contact.html">Contact us</a>
+            </div>
+
+            <!-- Use any element to open the sidenav -->
+
+            <div class="menu" onclick="openNav()"> <img src="images/menu.svg" alt="Menu"> </div>
+
+            <a href="home.html"> <img src="images/logo.png" alt="logo" class="logo"></a>
+
+
+            <nav class="desk-nav">
+                <a href="home.html" class=".sivulla">Home</a> <br>
+                <a href="about.html">About us</a> <br>
+                <a href="team.html">Team</a> <br>
+                <a href="contact.html">Contact us</a>
+            </nav>
+        </header>
+
+        <div class="aboutbar">
+
+            <div class="titlecontainer">
+
+                <p class="pagetitle"> Contact us </p>
+
+            </div>
+        </div>
+
+        <article class="">
+
+            <div class="main-article">
+
+                <div class="text-container">
+
+                    <h4>Ratapihantie 13, Pasila</h4>
+                    <h4>044 1234 123</h4>
+
+                </div>
+
+                <div class="container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1982.7364300124307!2d24.931999816299555!3d60.20164468197255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469209921fdba137%3A0x841c90a2862185af!2sRatapihantie+13%2C+00520+Helsinki!5e0!3m2!1sen!2sfi!4v1537268081166" width="100%" height="400" style="border:0" allowfullscreen class="map"></iframe>
+                </div>
+
+            </div>
+
+        </article>
+
+        <footer>
+
+            <div class="footer">
+            
+            <h10>Ratapihantie 13, 00520, Helsinki</h10>
+            
+            </div>
+
+        </footer>
+
+    </main>
+    
+    <script>
+        /* Set the width of the side navigation to 250px */
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        /* Set the width of the side navigation to 0 */
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+
+    </script>
+
+</body>
+
+</html>
